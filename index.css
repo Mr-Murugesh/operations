@@ -1,0 +1,82 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b83b3b;
+    background-image:linear-gradient(to right,rgb(168, 166, 168),rgb(168, 166, 168));
+  
+}
+.tc{
+    margin-bottom: 50px;
+    
+    font-size:40px;
+    /* background: -webkit-linear-gradient(rgba(73,131,240),rgb(250,139,244)); */
+    background: -webkit-linear-gradient(white,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.app{
+    width: 300px;
+    height: 500px;
+  
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+                -2px -2px 5px rgb(0,0,0,0.5);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow-y: scroll;
+}
+.add{
+    padding: 5px 10px;
+}
+#addNew svg{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#addNew{
+    /* border: 2px solid lightgray; */
+    border-radius: 10px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.heading{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#tasks{
+    display: grid;
+    justify-content: space-between;
+    gap: 10px;
+   margin: 10px;
+   padding: 5px 10px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+#tasks span{
+    font-size: 18px;
+}
+.options{
+    display: flex;
+    gap: 20px;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#msg{
+    color: rgb(247, 61, 61);
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
